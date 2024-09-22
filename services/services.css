@@ -1,0 +1,173 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+.logo{
+    size: 50px;
+}
+.topnav{
+   display: flex;
+   justify-content: flex-end;
+   padding: 14px 16px;
+}
+.topnav a{
+    float: left;
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    border-bottom: 3px solid transparent;
+    margin: 0 9px;
+}
+.topnav a:hover{
+  border-bottom:  3px solid white;
+}
+.topnav a.active{
+    border-bottom: 3px solid white;
+}
+.banner {
+    position: relative;
+background-image: url('https://img.freepik.com/premium-photo/elegant-floral-wedding-backdrop-wallpaper_756748-2505.jpg'); /* Replace with your image */
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.overlay {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    right: 50%;
+    bottom: 50%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.banner-content {
+    color: white;
+     font-family: 'Times New Rman', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    z-index: 1;
+}
+
+.banner-content h1 {
+font-family: 'Lucida Calligraphy', Italic;
+font-size: 50px;
+}
+
+.banner-content a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.banner-content a:hover {
+    text-decoration: underline;
+}
+
+.content {
+    padding: 20px;
+}
+.image-container {
+   display: grid;
+    grid-template-columns: repeat(3,1fr);
+   gap:  20px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.heading{
+text-align: center;
+font-size: 36px;
+margin-bottom: 10px;
+font-family:'Lucida Calligraphy', Italic bold;
+}
+.cata-effect{
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+bottom: o;
+z-index: 1;
+overflow: hidden;
+img-align: center;
+}
+p{font-family:'Lucida Calligraphy',italic; 
+font-weight:400; 
+font-style:normal; 
+font-size: 20px; 
+text-align:center;
+color: #565656;
+margin-bottom: 10px;
+}
+.services {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.service-box {
+    position: relative;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.service-box img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.service-title {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.service-box:hover {
+    transform: scale(1.05);
+}
+
+.service-box:hover .service-title {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.social-icons {
+            text-align: center;
+            margin-top: 0px;
+        }
+.social-icons a {
+            
+            margin: 0 10px;
+            text-decoration: none;
+ text-align: center;
+            color: #333;
+
+
+        }
+.social-icons a:hover {
+            color: #DE3163;
+ /* Change this to your preferred hover color */
+        }
